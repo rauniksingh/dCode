@@ -1,0 +1,24 @@
+{
+    "development": {
+        "config_id": "development",
+        "app_name": "userthread",
+        "app_desc": "user Thread App",
+        "node_port": 8080,
+        "database": "dev_userthread"
+    },
+    "testing": {
+        "config_id": "testing",
+        "node_port": 4000,
+        "database": "test_userthread"
+    },
+    "staging": {
+        "config_id": "staging",
+        "node_port": 8080,
+        "database": "stag_userthread"
+    },
+    "production": {
+        "config_id": "production",
+        "node_port": 8080,
+        "database": "prod_userthread"
+    }
+}
